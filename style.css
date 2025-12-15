@@ -1,0 +1,27 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #0a1d40;
+  color: #e6ebff;
+  padding: 24px;
+}
+
+section {
+  margin-bottom: 16px;
+}
+
+select, button {
+  padding: 6px 10px;
+  font-size: 16px;
+}
+
+button {
+  background: #afc6ff;
+  border: none;
+  cursor: pointer;
+}
+
+pre {
+  background: #111a33;
+  padding: 16px;
+  margin-top: 20px;
+}
