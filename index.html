@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>地脈道・陽宅判卦</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧭 地脈道・陽宅判卦</h1>
+
+  <section>
+    <label>外卦來源：</label>
+    <select id="outerMode">
+      <option value="door">大門／納氣方向</option>
+      <option value="person">人物卦（長幼有序）</option>
+    </select>
+  </section>
+
+  <section id="outerInput"></section>
+
+  <section>
+    <label>臥房所在方位（內卦）：</label>
+    <select id="inner">
+      <option value="乾">乾</option>
+      <option value="坤">坤</option>
+      <option value="震">震</option>
+      <option value="巽">巽</option>
+      <option value="坎">坎</option>
+      <option value="離">離</option>
+      <option value="艮">艮</option>
+      <option value="兌">兌</option>
+    </select>
+  </section>
+
+  <button onclick="calculate()">判卦</button>
+
+  <pre id="result"></pre>
+
+  <script src="engine/trigrams.js"></script>
+  <script src="engine/hexagramEngine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
